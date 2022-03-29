@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Yegor Sivukha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header">
+                <div class="header__title">
+                    <h1>
+                        <span>Yegor</span>
+                        Sivukha
+                    </h1>
+                    <p>Frontend developer</p>
+                </div>
+                <div class="header__social-icons">
+                    <a href="https://github.com/SnXnJr">
+                        <img src="./img/github.png" alt="github">
+                    </a>
+                    <a href="https://t.me/SnXnJr">
+                        <img src="./img/telegram.png" alt="telegram">
+                    </a>
+                    <a href="https://www.linkedin.com/in/yegor-sivukha-302027228/">
+                        <img src="./img/linkedin.png" alt="linkedin">
+                    </a>
+                </div>
+                <div class="header__avatar">
+                    <img src="./img/avatar.png" alt="Sivukha Yegor">
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <main class="content">
+            <div class="content__block">
+                <div class="block__aside">
+                    <a class="icon" href="tel:+375291390844">
+                        <img src="./img/phone.png" alt="+375 29 139 08 44">
+                        +375 29 139 08 44
+                    </a>
+                </div>
+                <div class="block__content">
+                    <a class="icon" href="mailto:sanxyanjr@gmail.com">
+                        <img src="./img/mail.png" alt="sanxyanjr@gmail.com">
+                        sanxyanjr@gmail.com
+                    </a>
+                    <div class="icon">
+                        <img src="./img/point.png" alt="Minsk, Belarus">
+                        Minsk, Belarus
+                    </div>
+                </div>
+            </div>
+            <div class="content__block">
+                <div class="block__aside">
+                    <h2 class="h2">My work experience</h2>
+                </div>
+                <div class="block__content">
+                    <ul>
+                        <li>
+                            <b>2018-2019 Frontend developer - 7top</b>
+                            <p>Layout and development of sites on CMS WordPress, Modx, Opencart</p>
+                        </li>
+                        <li>
+                            <b>2019-2020 Frontend developer - Aurius Studio</b>
+                            <p>Layout and development of sites on CMS WordPress, Modx, Opencart and custom CMS "Edelweiss</p>
+                        </li>
+                        <li>
+                            <b>2022-now Frontend developer - SportData</b>
+                            <p>Layout and development of sites on WordPress</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content__block">
+                <div class="block__aside">
+                    <h2 class="h2">Code Example</h2>
+                </div>
+                <div class="block__content block__content--column">
+                    <p>Implement the function unique_in_order which takes as argument a sequence and returns a list of items without any elements with the same value next to each other and preserving the original order of elements.</p>
+                    <pre>
+var uniqueInOrder=function(iterable){
+    const arr = Array.from(iterable);
+    const newArr = [];
+    for (let i = 0; i < arr.length; i++){
+        if (arr[i] != arr[i + 1]){
+        newArr.push(arr[i]);
+        }
+    }
+    return newArr;
+}
+                    </pre>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
